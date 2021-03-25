@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NewsPaper</title>
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link
+        href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic'
+        rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
 </head>
+
 <body>
     <div class="title">
         <header> THE MEAT </header>
@@ -20,11 +26,11 @@
         <a href="contact.html"> CONTACT </a>
     </div>
 
-    <div class ="contact-form">
-        
+    <div class="contact-form">
+
         <div class="map-container">
             <h1> GET IN TOUCH </h1>
-            <div class= "contact-wrap">
+            <div class="contact-wrap">
                 <div class="contact-info">
                     <div class="contact1">
                         <i class="fas fa-map-marker-alt"></i>
@@ -42,33 +48,31 @@
                 <div class="map"></div>
             </div>
 
-            
+
         </div>
         <div class="form-wrapper">
             <h1> Contact Us</h1>
             <form action="https://formspree.io/f/xqkgjqld" method="POST">
-                <label for="name" > Name</label>
+                <label for="name"> Name</label>
                 <br>
-                <input type="text" id = "name" name="name">
+                <input type="text" id="name" name="name">
                 <br>
                 <label for="email">Email</label>
                 <br>
                 <input type="email" id="email" name="_replyto">
                 <br>
-                
+
                 <label for="message">Message</label>
                 <br> <br>
                 <textarea id="msg"></textarea>
                 <br>
-                <input type="submit" id = "contact-btn" value="Send">
+                <input type="submit" id="contact-btn" value="Send">
                 <br>
-              </form>
+            </form>
         </div>
     </div>
-    <script
-    src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly"
-    defer
-  ></script>
-  <script src= "contact.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly" defer></script>
+    <script src="contact.js"></script>
 </body>
+
 </html>
