@@ -660,6 +660,7 @@ textarea {
     grid-template-columns: 1fr;
  
   }
+  
 }
 
 @media only screen and (max-width: 1750px) {
@@ -767,5 +768,16 @@ textarea {
   }
   .map{
     margin-bottom: 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 570px){
+  .ad1 h3, .ad2 h3, .ad3 h3{
+    font-size: 20px;
+  }
+
+  .ad1 h2, .ad2 h2, .ad3 h2{
+    font-size: 15px;
   }
 }
