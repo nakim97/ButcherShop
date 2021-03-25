@@ -618,7 +618,9 @@ textarea {
   .banner h1 {
     font-size: 55px;
   }
-
+  .menu {
+    grid-template-columns: 1fr;
+  }
   .contact-form {
     display: grid;
     grid-template-columns: 1fr;
@@ -640,6 +642,23 @@ textarea {
   .ad2,
   .ad3 {
     height: 280px;
+  }
+  #beef .meat-order i,
+  #lamb .meat-order i,
+  #pork .meat-order i,
+  #chicken .meat-order i {
+    display: inline;
+    right: -80%;
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .menu-title {
+    font-size: 40px;
+  }
+  .recipe-ad {
+    grid-template-columns: 1fr;
+ 
   }
 }
 
@@ -680,6 +699,7 @@ textarea {
     width: 60%;
     height: 150px;
   }
+  
 }
 
 @media only screen and (max-width: 480px) {
