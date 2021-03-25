@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 html,
 body {
@@ -620,6 +621,9 @@ textarea {
 
   .contact-form {
     display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contact-wrap{
     grid-template-columns: 1fr;
   }
   .form-wrapper {
