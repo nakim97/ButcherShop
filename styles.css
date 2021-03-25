@@ -737,4 +737,11 @@ textarea {
   .order-btn {
     margin-bottom: 10px;
   }
+
+  .contact-wrap{
+    grid-template-columns: 1fr;
+  }
+  .map{
+    margin-bottom: 20px;
+  }
 }
